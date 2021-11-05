@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Github Hexo 个人博客">
+    <meta name="keywords" content="Github Hexo 个人博客 Mac">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Github + Hexo 搭建个人博客 | LizFoo</title>
+    <title>Github + Hexo 搭建个人博客（Mac） | LizFoo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -266,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Github + Hexo 搭建个人博客</h1>
+                    <h1 class="description center-align post-title">Github + Hexo 搭建个人博客（Mac）</h1>
                 </div>
             </div>
         </div>
@@ -339,7 +339,7 @@
     }
 
     #toc-content .toc-link:hover {
-        color: #42b983;
+        color: #F06292;
         font-weight: 700;
         text-decoration: underline;
     }
@@ -354,7 +354,7 @@
     }
 
     #toc-content .is-active-link {
-        color: #42b983;
+        color: #F06292;
     }
 
     #floating-toc-btn {
@@ -432,24 +432,49 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <p>小破站开张啦！这是我的第3个博客站了，之前的几个都无疾而终，现在打算把这个长期维护下去。<br>在这里，我会分享一些我的个人项目，技术相关的文章，以及生活中的见闻等，希望能对你有帮助~</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我记录的只是最基础的框架，具体的每一步怎么安装和下载没有写，不过网上有很多博客已经写过了，可以自行搜索.<br>后面我会接着完善这篇博客。</p>
+<h4 id="注册账号，新建仓库"><a href="#注册账号，新建仓库" class="headerlink" title="注册账号，新建仓库"></a>注册账号，新建仓库</h4><p>在神奇的网站：<a target="_blank" rel="noopener" href="https://github.com/">Github</a><br>注册自己的账号，然后新建一个仓库，仓库的名字必须是：注意哈，username是你注册时自己取的那个名字</p>
+<pre class="line-numbers language-none"><code class="language-none">username.github.io
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h4 id="下载一些软件，并确保它们被成功安装"><a href="#下载一些软件，并确保它们被成功安装" class="headerlink" title="下载一些软件，并确保它们被成功安装"></a>下载一些软件，并确保它们被成功安装</h4><ul>
+<li>安装 GitHub desktop</li>
+<li>安装 node.js</li>
+<li>安装 homebrew</li>
+<li>安装 git bash</li>
+<li>安装 hexo</li>
+</ul>
+<h4 id="在本地初始化博客"><a href="#在本地初始化博客" class="headerlink" title="在本地初始化博客"></a>在本地初始化博客</h4><p>把远程的仓库克隆到本地，在里面新建一个文件夹，命名为Blog，可以取别的名字，随意。<br>然后使用终端进入这个文件夹，</p>
+<pre class="line-numbers language-none"><code class="language-none">sudo npm install hexo-deployer-git --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>接着，修改_config.yml文件</p>
+<pre class="line-numbers language-none"><code class="language-none">deploy: # 部署部分的设置
+  type: git
+  repo: https:&#x2F;&#x2F;github.com&#x2F;username&#x2F;username.github.io.git
+  branch: main<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h4 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h4><p>为了避免每次上传到git时都要输入用户名和密码，最好配置ssh<br>我参考了这篇博客：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/63edbb08bd5f">Mac下Github的SSH公钥生成记录</a></p>
+<h4 id="推送到git上"><a href="#推送到git上" class="headerlink" title="推送到git上"></a>推送到git上</h4><p>最后使用hexo命令，把本地的文件推送到远程仓库中</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo cleans
+hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>一些常用的hexo 命令</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo new &quot;文章名称&quot; # 新建文章
+hexo clean #清除缓存
+hexo p # hexo publish
+hexo g # hexo generate
+hexo s # hexo server
+hexo d # hexo deploy
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -689,18 +714,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/10/31/hello-world/">
+                <a href="/2021/11/05/data-analysis/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="data analysis">
                         
-                        <span class="card-title">Github + Hexo 搭建个人博客</span>
+                        <span class="card-title">data analysis</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -710,33 +734,16 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-05
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/blog/" class="post-category">
-                                    blog
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Zifu Liu
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -752,9 +759,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客（Mac）">
                         
-                        <span class="card-title">Github + Hexo 搭建个人博客</span>
+                        <span class="card-title">Github + Hexo 搭建个人博客（Mac）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
