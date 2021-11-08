@@ -4,9 +4,36 @@
   
     
     <entry>
-      <title>data analysis （01）</title>
-      <link href="/2021/11/05/data-analysis/"/>
-      <url>/2021/11/05/data-analysis/</url>
+      <title>data analysis</title>
+      <link href="/2021/11/08/data-analysis-02/"/>
+      <url>/2021/11/08/data-analysis-02/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第二章-实验"><a href="#第二章-实验" class="headerlink" title="第二章 实验"></a>第二章 实验</h1><h3 id="案例：星巴克销量下滑，找出是什么因素导致的，给出策略。"><a href="#案例：星巴克销量下滑，找出是什么因素导致的，给出策略。" class="headerlink" title="案例：星巴克销量下滑，找出是什么因素导致的，给出策略。"></a>案例：星巴克销量下滑，找出是什么因素导致的，给出策略。</h3><p>统计与分析最基本的原理之一就是比较法。数据只有通过相互比较才会有意义。<br>当销量下降的时候，看看是什么和销量同步下降了，看看是什么波动最大。</p><h3 id="观察分析法："><a href="#观察分析法：" class="headerlink" title="观察分析法："></a>观察分析法：</h3><h4 id="混杂因素："><a href="#混杂因素：" class="headerlink" title="混杂因素："></a>混杂因素：</h4><p>分析的对象充满混杂因素——有可能是时间段，有可能是店铺地址。在实际中，混杂因素有可能很难发现，从而让我们无法得到正确结论。</p><p>但是只要分析后得到的结论有意义，而且你已经彻头彻尾查找过混杂因素，那么你就已经做了观察分析法要求你做的一切工作。</p><p>通过对每个区域的100名顾客做问卷调查，最后发现，是人们普遍对价值感评价很低，于是为了提升销量，提出了2个策略：</p><ul><li>（1）降价</li><li>（2）提升品牌效应，改变人们的想法，也就是游说顾客</li></ul><h4 id="控制变量："><a href="#控制变量：" class="headerlink" title="控制变量："></a>控制变量：</h4><p>控制组control group——保持现状，不经过任何新的处理，也称为对照组。</p><p>2月份没有设置控制组，所以无法知道多赚了还是赔钱了。我开始不明白，后面才懂了。因为2月份已经过去了，销量已经成为定数，我们无法用1月份的销量去计算，或者去年2月份的销量来代入计算。</p><p>只能重新计算，所以在3月份又做一次实验。</p><p>避免混杂因素要靠正确的分组。排除天气，地址等因素。</p><p>最好的办法是，把大区域分为微区域，然后随意选择一部分成为控制组，剩下的成为实验组。</p><p>为了判断策略1还是2有效，分为3个组：<br>图一</p><p>得到结果：同时把之前发现的不受影响的区域的店铺（富人区）排除在外，不参与实验<br>图二</p><h3 id="备注："><a href="#备注：" class="headerlink" title="备注："></a>备注：</h3><p>顶级数据分析师懂得妥当地报告有可能令人沮丧的消息。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> data-analysis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> data-analysis </tag>
+            
+            <tag> Head First Data Analysis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>data analysis 01</title>
+      <link href="/2021/11/05/data-analysis-01/"/>
+      <url>/2021/11/05/data-analysis-01/</url>
       
         <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>所有的优秀数据分析师，无论专长和目标如何，都会在工作过程中按顺序执行这个固定基本流程，同时通过经验证据来仔细推敲各种问题。</p><h3 id="确定问题"><a href="#确定问题" class="headerlink" title="确定问题"></a>确定问题</h3><p>明确你的问题，知道谁是你的客户。</p><h3 id="分解数据"><a href="#分解数据" class="headerlink" title="分解数据"></a>分解数据</h3><p>数据分析就是分解问题和数据，把大问题变成更小的问题，把大的步骤变成可行的小步骤。<br>进行有效的比较是数据分析的核心</p><h3 id="评估"><a href="#评估" class="headerlink" title="评估"></a>评估</h3><p>这一步是对前两步了解到的情况作出各种结论。<br>分析从自己介入的那一刻开始。<br>让自己介入到分析中，意思是，作为一个数据分析师，我要提出自己的明确假设，并且以自己的信用为自己的结论打赌。在撰写最终报告的时候，一定要提到自己，这样客户才知道结论出自何处。</p><h3 id="决策"><a href="#决策" class="headerlink" title="决策"></a>决策</h3><p>最后，把数据作为证据，和结论重新组合在一起，提出一个建议（决策）.<br>提交的报告能简单则简单，但不能简单过头，确保自己的意见传达到位。<br>提交给客户的报告要能让客户理解，鼓励客户以数据为基础作出明智的决策为重点。</p><h3 id="关于报告："><a href="#关于报告：" class="headerlink" title="关于报告："></a>关于报告：</h3><h4 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h4><p>客户群体，公司打算做什么，竞争对手怎么样？</p><h4 id="数据解说："><a href="#数据解说：" class="headerlink" title="数据解说："></a>数据解说：</h4><p>什么手段促销无用，我们从数据中能得到的信息，画图并且解释。这部分不要提出建议，就是解释数据：什么上升了，什么下降了。</p><h4 id="建议："><a href="#建议：" class="headerlink" title="建议："></a>建议：</h4><p>数据分析师的个人的，但是要基于数据</p><h3 id="在分析中需要用到反向的心智模型："><a href="#在分析中需要用到反向的心智模型：" class="headerlink" title="在分析中需要用到反向的心智模型："></a>在分析中需要用到反向的心智模型：</h3><p>要了解不确定或者不知道的信息，甚至做出反向的假设。<br>怎么理解这句话呢？<br>我的理解是：对于我们要解决的问题，提出正反两个假设。<br>比如，公司想要提高销量，保证自己的产品天下第一。<br>那么就会出现：<br>正：大家都喜欢苹果，把所有的钱都用于购买苹果。<br>反：其实苹果没那么受欢迎，部分人会选择三星或者华为</p><p>正：网络营销是最好的手段——因为大家都热爱互联网<br>反：网络营销很低效，不如电视广告效率高</p><p>正：消费者愿意为apple付费<br>反：如果apple再涨价，大家就会转投别的产品的怀抱<br>等等。</p><h3 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h3><ul><li>写报告其实是能让客户详细地浏览你的思考过程。</li><li>千万要保存原始数据，避免进行任何数据处理。必须能够将自己的工作结果与原始数据进行比较。</li></ul><h2 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h2><p>All good analysts, regardless of their skills or goals, go throught this same basic process during the course of their work, always using empirical evidence to think carefully about problems.</p><h3 id="Define"><a href="#Define" class="headerlink" title="Define:"></a>Define:</h3><p>Knowing your problem is the very first step.<br>Your client is the person who will make decisions on the basis of your analysis. You need to get as much information as you can from him to define your problem.<br>The better you understand your client, the more likely your analysis will be able to help.<br>Good data analysts help their clients think through their problem;they don’t just wait around for their clients to tell them what to do.<br>Your clients will really appreciate it if you can show them that they have problems they didn’t even know about.<br>Some people see problems as opportunities not troubles, and data analysts who show their clients how to exploit opportunity give them a competitve advantage.</p><h3 id="Disassemble"><a href="#Disassemble" class="headerlink" title="Disassemble:"></a>Disassemble:</h3><p>Data analysis is all about breaking problems and data into smaller pieces.<br>Making good comparisions is at the core of data analysis.</p><h3 id="Evaluate"><a href="#Evaluate" class="headerlink" title="Evaluate:"></a>Evaluate:</h3><p>Here’s the meat of the analysis, where you draw your conclusions about what you’ve learned in the first two steps.<br>Inserting yourself into your analysis means making your own assumptions explict and betting your credibility on your conclusion.<br>As a data analyst, your job is to empower yourself and your client to make better decisions, using insights gleaned from carefully studying your evaluation of the data.<br>As you craft your final report, be sure to refer to yourself, so that your client knows where your conclusions are coming from.</p><h3 id="Decide"><a href="#Decide" class="headerlink" title="Decide:"></a>Decide:</h3><p>Finally, you put it all back together and make or recommend a decision.<br>Making your work as simple as it can be, but not simpler! It’s your job to make sure your voice is heard and that people make good decisions on the basis of what you have to say.<br>The report you present to your client needs to be focused on making yourself understood and encouraging intelligent, data-based decision making.</p><h3 id="Note："><a href="#Note：" class="headerlink" title="Note："></a>Note：</h3><p>When you get new data, and you haven’t done anything to change it yet, it’s considered raw data.<br>You will almost always need to manipulate data you get from someone else in order to get it into a useful form for the number crunching you want to do.<br>Just be sure to save your originals.You always need to be able to compare your work to the raw data.</p>]]></content>
       

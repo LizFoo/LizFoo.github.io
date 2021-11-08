@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Github Hexo 个人博客 Mac">
+    <meta name="keywords" content="数据分析 深入浅出数据分析">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Github + Hexo 搭建个人博客（Mac） | LizFoo</title>
+    <title>data analysis | LizFoo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -266,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Github + Hexo 搭建个人博客（Mac）</h1>
+                    <h1 class="description center-align post-title">data analysis</h1>
                 </div>
             </div>
         </div>
@@ -387,12 +387,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/data-analysis/">
+                                <span class="chip bg-color">data-analysis</span>
                             </a>
                         
-                            <a href="/tags/Github/">
-                                <span class="chip bg-color">Github</span>
+                            <a href="/tags/Head-First-Data-Analysis/">
+                                <span class="chip bg-color">Head First Data Analysis</span>
                             </a>
                         
                     </div>
@@ -403,8 +403,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/blog/" class="post-category">
-                                blog
+                            <a href="/categories/data-analysis/" class="post-category">
+                                data-analysis
                             </a>
                         
                     </div>
@@ -416,7 +416,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-10-31
+                    2021-11-08
                 </div>
                 
 
@@ -440,41 +440,22 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>小破站开张啦！这是我的第3个博客站了，之前的几个都无疾而终，现在打算把这个长期维护下去。<br>在这里，我会分享一些我的个人项目，技术相关的文章，以及生活中的见闻等，希望能对你有帮助~</p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我记录的只是最基础的框架，具体的每一步怎么安装和下载没有写，不过网上有很多博客已经写过了，可以自行搜索.<br>后面我会接着完善这篇博客。</p>
-<h4 id="注册账号，新建仓库"><a href="#注册账号，新建仓库" class="headerlink" title="注册账号，新建仓库"></a>注册账号，新建仓库</h4><p>在神奇的网站：<a target="_blank" rel="noopener" href="https://github.com/">Github</a><br>注册自己的账号，然后新建一个仓库，仓库的名字必须是：注意哈，username是你注册时自己取的那个名字</p>
-<pre class="line-numbers language-none"><code class="language-none">username.github.io
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-<h4 id="下载一些软件，并确保它们被成功安装"><a href="#下载一些软件，并确保它们被成功安装" class="headerlink" title="下载一些软件，并确保它们被成功安装"></a>下载一些软件，并确保它们被成功安装</h4><ul>
-<li>安装 GitHub desktop</li>
-<li>安装 node.js</li>
-<li>安装 homebrew</li>
-<li>安装 git bash</li>
-<li>安装 hexo</li>
+                <h1 id="第二章-实验"><a href="#第二章-实验" class="headerlink" title="第二章 实验"></a>第二章 实验</h1><h3 id="案例：星巴克销量下滑，找出是什么因素导致的，给出策略。"><a href="#案例：星巴克销量下滑，找出是什么因素导致的，给出策略。" class="headerlink" title="案例：星巴克销量下滑，找出是什么因素导致的，给出策略。"></a>案例：星巴克销量下滑，找出是什么因素导致的，给出策略。</h3><p>统计与分析最基本的原理之一就是比较法。数据只有通过相互比较才会有意义。<br>当销量下降的时候，看看是什么和销量同步下降了，看看是什么波动最大。</p>
+<h3 id="观察分析法："><a href="#观察分析法：" class="headerlink" title="观察分析法："></a>观察分析法：</h3><h4 id="混杂因素："><a href="#混杂因素：" class="headerlink" title="混杂因素："></a>混杂因素：</h4><p>分析的对象充满混杂因素——有可能是时间段，有可能是店铺地址。在实际中，混杂因素有可能很难发现，从而让我们无法得到正确结论。</p>
+<p>但是只要分析后得到的结论有意义，而且你已经彻头彻尾查找过混杂因素，那么你就已经做了观察分析法要求你做的一切工作。</p>
+<p>通过对每个区域的100名顾客做问卷调查，最后发现，是人们普遍对价值感评价很低，于是为了提升销量，提出了2个策略：</p>
+<ul>
+<li>（1）降价</li>
+<li>（2）提升品牌效应，改变人们的想法，也就是游说顾客</li>
 </ul>
-<h4 id="在本地初始化博客"><a href="#在本地初始化博客" class="headerlink" title="在本地初始化博客"></a>在本地初始化博客</h4><p>把远程的仓库克隆到本地，在里面新建一个文件夹，命名为Blog，可以取别的名字，随意。<br>然后使用终端进入这个文件夹，</p>
-<pre class="line-numbers language-none"><code class="language-none">sudo npm install hexo-deployer-git --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>接着，修改_config.yml文件</p>
-<pre class="line-numbers language-none"><code class="language-none">deploy: # 部署部分的设置
-  type: git
-  repo: https:&#x2F;&#x2F;github.com&#x2F;username&#x2F;username.github.io.git
-  branch: main<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h4><p>为了避免每次上传到git时都要输入用户名和密码，最好配置ssh<br>我参考了这篇博客：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/63edbb08bd5f">Mac下Github的SSH公钥生成记录</a></p>
-<h4 id="推送到git上"><a href="#推送到git上" class="headerlink" title="推送到git上"></a>推送到git上</h4><p>最后使用hexo命令，把本地的文件推送到远程仓库中</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo cleans
-hexo g
-hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>一些常用的hexo 命令</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo new &quot;文章名称&quot; # 新建文章
-hexo clean #清除缓存
-hexo p # hexo publish
-hexo g # hexo generate
-hexo s # hexo server
-hexo d # hexo deploy
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="控制变量："><a href="#控制变量：" class="headerlink" title="控制变量："></a>控制变量：</h4><p>控制组control group——保持现状，不经过任何新的处理，也称为对照组。</p>
+<p>2月份没有设置控制组，所以无法知道多赚了还是赔钱了。我开始不明白，后面才懂了。因为2月份已经过去了，销量已经成为定数，我们无法用1月份的销量去计算，或者去年2月份的销量来代入计算。</p>
+<p>只能重新计算，所以在3月份又做一次实验。</p>
+<p>避免混杂因素要靠正确的分组。排除天气，地址等因素。</p>
+<p>最好的办法是，把大区域分为微区域，然后随意选择一部分成为控制组，剩下的成为实验组。</p>
+<p>为了判断策略1还是2有效，分为3个组：<br>图一</p>
+<p>得到结果：同时把之前发现的不受影响的区域的店铺（富人区）排除在外，不参与实验<br>图二</p>
+<h3 id="备注："><a href="#备注：" class="headerlink" title="备注："></a>备注：</h3><p>顶级数据分析师懂得妥当地报告有可能令人沮丧的消息。</p>
 
                 
             </div>
@@ -501,7 +482,7 @@ hexo d # hexo deploy
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lizfoo.github.io/2021/10/31/hello-world/">https://lizfoo.github.io/2021/10/31/hello-world/</a>
+                    <a href="https://lizfoo.github.io/2021/11/08/data-analysis-02/">https://lizfoo.github.io/2021/11/08/data-analysis-02/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -539,12 +520,12 @@ hexo d # hexo deploy
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
+                                <a href="/tags/data-analysis/">
+                                    <span class="chip bg-color">data-analysis</span>
                                 </a>
                             
-                                <a href="/tags/Github/">
-                                    <span class="chip bg-color">Github</span>
+                                <a href="/tags/Head-First-Data-Analysis/">
+                                    <span class="chip bg-color">Head First Data Analysis</span>
                                 </a>
                             
                         </div>
@@ -714,9 +695,64 @@ hexo d # hexo deploy
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/2021/11/08/data-analysis-02/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="data analysis">
+                        
+                        <span class="card-title">data analysis</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/data-analysis/" class="post-category">
+                                    data-analysis
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/data-analysis/">
+                        <span class="chip bg-color">data-analysis</span>
+                    </a>
+                    
+                    <a href="/tags/Head-First-Data-Analysis/">
+                        <span class="chip bg-color">Head First Data Analysis</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2021/11/05/data-analysis-01/">
                     <div class="card-image">
@@ -734,9 +770,9 @@ hexo d # hexo deploy
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-05
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -758,60 +794,6 @@ hexo d # hexo deploy
                     
                     <a href="/tags/Head-First-Data-Analysis/">
                         <span class="chip bg-color">Head First Data Analysis</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/10/31/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客（Mac）">
-                        
-                        <span class="card-title">Github + Hexo 搭建个人博客（Mac）</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-31
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/blog/" class="post-category">
-                                    blog
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
                     </a>
                     
                 </div>
